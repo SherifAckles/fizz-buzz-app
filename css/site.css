@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #1d5888;
+  --secondary-color: #ff993b;
+  --dark-color: #292929;
+  --white-color: #e7e7e7;
+  --navbar--color: #37648a;
+}
+
+body {
+  color: var(--dark-color);
+}
+nav {
+  background-color: var(--navbar--color);
+}
