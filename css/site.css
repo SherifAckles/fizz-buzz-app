@@ -11,10 +11,13 @@ body {
 }
 nav {
   background-color: var(--navbar--color);
+  margin-bottom: 5rem !important;
  }
 
  footer {
     background-color: var(--navbar--color);
+    text-align: center;
+    align-items: center;
 }
 h1,h2,h3,h4,h5,h6 {
     color: var(--primary-color);
@@ -36,6 +39,12 @@ footer .social>a{
 footer .social>a:hover{
     opacity: 0.9;
     color: var(--secondary-color);
+}
+
+.copy-right{
+    margin: auto !important;
+    text-align: center !important;
+    align-items: center !important;
 }
 
 .bsicon{
@@ -84,3 +93,17 @@ main>.container {
     color:red;
    font-weight: bold;
 }
+
+/* -----------Media Query----------- */
+/* MD devices */
+@media screen and (max-width: 1024px) {
+    
+  }
+  
+  /* SM devices */
+  @media screen and (max-width: 600px) {
+   .footer-socials{
+   padding-top: 1rem;
+
+   }
+  }
