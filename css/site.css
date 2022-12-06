@@ -11,4 +11,8 @@ body {
 }
 nav {
   background-color: var(--navbar--color);
+ }
+
+ footer {
+    background-color: var(--navbar--color);
 }
