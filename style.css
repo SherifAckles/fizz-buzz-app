@@ -1,0 +1,19 @@
+.responsive {
+	max-width: 100%;
+	height: auto;
+  }
+
+  img{
+	padding: 5px;
+}
+
+#results {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	background-color: gainsboro; 
+  }
+  #results td, #results th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
